@@ -1,56 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <link rel="stylesheet" href="style.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap"
-        rel="stylesheet">
-</head>
+<style>
+body {
+  background-image: url('BgMain.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+ div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+.white-text {
+    color: white;
+    font-size:60px;
+    text-align:center;
+  }
+    .yellow-text {
+    color: yellow;
+    font-size:40px;
+    font-family:Caslon;
+    text-align:center;
+  }
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
 
-<body background="https://github.com/rakeshinty681/myfirstrepo/blob/main/Background.jpg">
-   <div style="background-color: rgba(255, 255, 255, 0.8); padding: 20px;">
-    <header>
-        <h1 id="top">PRISHA FROZEN FOODS</h1>
-    </header>
-   </div>
-    <hr>
-    <nav id="navbar">
-      <img src="https://github.com/rakeshinty681/myfirstrepo/blob/main/PFF_Board.jpg">
-        <ul id="navcontent">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="contact.html">ContactUs</a></li>
-        </ul>
-    </nav>
-    <div id="container1">
-        <div id="row1">
-            PRISHA FROZEN FOODS
-        </div>
-        <button class="btn">ORDER NOW</button>
-        <div id="container3">
-            <div id="row2">
-                <button class="btn">Prices</button>
-            </div>
-            <div id="row3">
-                <button class="btn">Specials</button>
-            </div>
-        </div>
-    </div>
-    <hr>
-    <h1 id="top3">Featured Products</h1>
-    <div id="container4">
-        <div id="row4">
-            <button class="btn">ORDER NOW</button>
-        </div>
-        <div id="row5">
-            <button class="btn">ORDER NOW</button>
-        </div>
-        <div id="row6">
-            <button class="btn">ORDER NOW</button>
-        </div>
-    </div>
-    <footer>Copyright © 2020-2021 OnlineFoodShop.
-        All Rights are reserved</footer>
+</style>
+</head>
+<body>
+<h1 class="white-text">Prisha Frozen Foods</h1>
+<h1 class="yellow-text">Quality Frozen Foods for Everyone</h1>
+
+<div class="grid-container">
+<div class="transbox" >
+  <h2 style="margin:10px;">About Us</h2>
+    <p style="margin:10px;">Welcome to Prisha Frozen Foods, your one-stop destination for all things delicious and convenient! We specialize in offering a wide range of frozen foods, from crispy chicken nuggets and succulent momos to perfectly seasoned fish fingers, crab lollipop, golden French fries, Parathas and a variety of tasty sauces to complement every meal.</p>
+    <p style="margin:10px;">At Prisha Frozen Foods, we believe in bringing quality and convenience together. We carefully select our products to ensure every bite is packed with flavor, and our range is perfect for busy families, foodies, or anyone craving a quick, satisfying meal. Whether you're cooking for the family or just need a snack, we've got something for every occasion.</p>
+    <p style="margin:10px;">We are committed to providing top-notch frozen foods that are easy to prepare and full of taste. Thank you for choosing us to be part of your mealtime moments.</p>
+</div>
+
+<div class="transbox">
+  <h2 style="margin:10px;">Contact Us</h2>
+    <p style="margin:10px;">We'd love to hear from you! Whether you have questions about our products, need assistance with an order, or just want to share your feedback, feel free to reach out.</p>
+    <p style="margin:10px;" ><b>Email:</b> prishafrozenfood@gmail.com</p>
+    <p style="margin:10px;"><b>Phone:</b> +91 90044 80997</p>
+    <p style="margin:10px;"><b>Address:</b> Shop No. 7 Pandit Pathan Chawl, Opp. Deepanjali Building, Jankalyan nagar, off Marve Road, Malad West Mumbai -400095.</p>
+    <p style="margin:10px;">Follow us on  <img src="instagram.png" style="width:30px;height:30px"><b> PRISHA_FROZENFOODS</b> to stay updated on new arrivals, special offers, and more!</p>
+</div>
+</div>
+
+<h1 align=center>Products</h1>
+<div class="grid-container">
+<div class="transbox" >
+<h2 align="center">FROZEN</h2>
+<h3 style="margin:10px;">Veg Product List<a href="sample.pdf"><img src="pdf_logo.jpg" style="width:30px;height:30px"> </a></h3>
+
+<h3 style="margin:10px;">Non-Veg Product List<a href="sample.pdf"><img src="pdf_logo.jpg" style="width:30px;height:30px"></a></h3>
+
+</div>
+  <div class="transbox" >
+<h2 align="center">SAUCES </h2>
+<h3>Product List <a style="margin:10px;" href="sample.pdf"><img src="pdf_logo.jpg" style="width:30px;height:30px"></a></h3>
+
+
+  </div>
+</div>
 </body>
 </html>
+
+
+
+
+
+
+
