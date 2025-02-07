@@ -29,6 +29,26 @@ body {
   display: grid;
   grid-template-columns: 50% 50%;
 }
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 </style>
 </head>
@@ -53,23 +73,30 @@ body {
     <p style="margin:10px;">Follow us on  <img src="instagram.png" style="width:30px;height:30px"><b> PRISHA_FROZENFOODS</b> to stay updated on new arrivals, special offers, and more!</p>
 </div>
 </div>
-
 <h1 align=center>Products</h1>
-<div class="grid-container">
-<div class="transbox" >
-<h2 align="center">FROZEN</h2>
-<h3 style="margin:10px;">Veg Product List<a href="PFF_Frozen_Veg_RateCard.pdf"><img src="pdf_logo.jpg" style="width:30px;height:30px"> </a></h3>
 
-<h3 style="margin:10px;">Non-Veg Product List<a href="PFF_Frozen_NonVeg_RateCard.pdf"><img src="pdf_logo.jpg" style="width:30px;height:30px"></a></h3>
-
-</div>
-  <div class="transbox" >
-<h2 align="center">SAUCES, Dips, Cheese and more </h2>
-<h3 style="margin:10px;">Product List <a style="margin:10px;" href="PFF_Sauces_Cheese_RateCard.pdf"><img src="pdf_logo.jpg" style="width:30px;height:30px"></a></h3>
-<p style="margin:10px;">Follow us on  <img src="Images/PFF-Frozen-Veg.png" style="width:30px;height:30px"><b> PRISHA_FROZENFOODS</b> to stay updated on new arrivals, special offers, and more!</p>
-
+<div class="row">
+  <div class="column" style="background-color:black">
+    <h2 style="margin:10px; color: Red">Frozen-NonVeg</h2>
+    <img src="Images/PFF-Frozen-NonVeg-1.png" alt="Snow" style="width:100%">
+    <img src="Images/PFF-Frozen-NonVeg-2.png" alt="Snow" style="width:100%">
+  </div>
+  <div class="column" style="background-color:black">
+    <h2 style="margin:10px; color: green">Frozen-Veg</h2>
+    <img src="Images/PFF-Frozen-Veg.png" alt="Forest" style="width:100%">
+  </div>
+  <div class="column" style="background-color:black">
+    <h2 style="margin:10px;color: yellow">Sauces, Dips, Chutney</h2>
+    <img src="Images/PFF-Sauces-Dips- Chutney-1.png" alt="Mountains" style="width:100%">
+    <img src="Images/PFF-Sauces-Dips- Chutney-2.png" alt="Mountains" style="width:100%">
+    <img src="Images/PFF-Sauces-Dips- Chutney-3.png" alt="Mountains" style="width:100%">
+ </div>
+  <div class="column" style="background-color:black">
+    <h2 style="margin:10px; color: white">Cheese & Milk Products</h2>
+    <img src="Images/PFF-Cheese N Milk Products.png" alt="Mountains" style="width:100%">
   </div>
 </div>
+
 </body>
 </html>
 
